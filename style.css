@@ -16,7 +16,6 @@ body
 .titulo-destaque
 {
     color: #6B8A7A;
-    
 }
 
 .nombreInicial
@@ -31,6 +30,7 @@ body
     color: #B7B597;
     font-size: 25px;
     font-family: "Krona One", serif;
+    text-align: center;
 }
 
 .presentacion
@@ -65,6 +65,13 @@ body
 {
     font-size: 14px;
     font-family: "Montserrat", serif;
+}
+
+.presentacionContenidoParrafo3
+{
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    text-align: center;
     
 }
 
@@ -72,12 +79,14 @@ body
 {
     display:flex;
     justify-content: space-between;
+    gap: 10px;
+    align-items:center;
 }
 
 .presentacionEnlacesLink
 {
-    width: 280px;
-    background-color: #6B8A7A;
+    width: 378px;
+    border: 2px solid #6B8A7A;
     text-align: center;
     padding: 20.0px 0;
     border-radius: 16px;
