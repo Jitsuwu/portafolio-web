@@ -19,17 +19,17 @@
 body
 {
     /* height: 100vh; */
-    background-color:#254336;
-    color: #DAD3BE;
+    background-color: var(--colorPrimario);
+    color: var(--colorSecundario);
     box-sizing: border-box;
 }
 
 .header
 {
     padding: 2% 0% 0% 15%;
-    background-color: #254336;
-    font-family: "Montserrat", serif;
-    color: #B7B597;
+    background-color: var(--colorPrimario);
+    font-family: var(--fuenteMontserrat);
+    color: var(--colorCuarto);
 }
 
 .headerMenu
@@ -40,31 +40,23 @@ body
 
 .headerMenuLinks
 {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuenteMontserrat);
     font-size: 24px;
     font-weight: 600;
-    color: #DAD3BE;
+    color: var(--colorSecundario);
     text-decoration: none;
 }
 
 .headerMenuLinks:hover
 {
-    color: #DAD3BE;
+    color: var(--colorSecundario);
 }
 
 .nombreInicial
 {
-    color: #6B8A7A;
+    color: var(--colorTerciario);
     font-size: 25px;
-    font-family: "Krona One", serif;
-}
-
-.contacto
-{
-    color: #B7B597;
-    font-size: 25px;
-    font-family: "Krona One", serif;
-    text-align: center;
+    font-family: var(--fuenteKrona);
 }
 
 .presentacion
@@ -82,40 +74,48 @@ body
     flex-direction: column;
     gap: 20px;
     text-decoration: none;
-    color: #DAD3BE;
+    color: var(--colorSecundario);
 }
 
 .presentacionContenidoTitulo
 {
     font-size: 36px;
-    font-family: "Krona One", serif;
+    font-family: var(--fuenteKrona);
 }
 
 .titulo-destaque
 {
-    color: #6B8A7A;
+    color: var(--colorTerciario);
 }
 
 .presentacionContenidoParrafo
 {
     font-size: 18px;
-    font-family: "Montserrat", serif;
+    font-family: var(--fuenteMontserrat);
     text-decoration: none;
-    color: #DAD3BE;
+    color: var(--colorSecundario);
 }
 
 .presentacionContenidoParrafo2
 {
-    font-size: 14px;
-    font-family: "Montserrat", serif;
+    font-size: 18px;
+    font-family: var(--fuenteMontserrat);
 }
 
 .presentacionContenidoParrafo3
 {
     font-size: 14px;
-    font-family: "Montserrat", serif;
+    font-family: var(--fuenteMontserrat);
     text-align: center;
     
+}
+
+.contacto
+{
+    color: var(--colorCuarto);
+    font-size: 25px;
+    font-family: var(--fuenteKrona);
+    text-align: center;
 }
 
 .presentacionEnlaces
@@ -129,14 +129,14 @@ body
 .presentacionEnlacesLink
 {
     width: 378px;
-    border: 2px solid #6B8A7A;
+    border: 2px solid var(--colorTerciario);
     text-align: center;
     padding: 20.0px 0;
     border-radius: 16px;
     font-family: "Monserrat, serif";
     font-size: 24px;
     font-weight: 600;
-    color: #DAD3BE;
+    color: var(--colorSecundario);
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -145,9 +145,9 @@ body
 
 .presentacionEnlacesLink:hover
 {
-    border: 2px solid #B7B597;
+    border: 2px solid var(--colorTerciario);
     cursor: pointer;
-    background-color:#6B8A7A; ;
+    background-color: var(--colorTerciario);
 }
 
 .fotoPresentacion
@@ -159,11 +159,11 @@ body
 
 .footer
 {
-    background-color: #6B8A7A;
+    background-color: var(--colorTerciario);
     padding: 40px;
-    color: #DAD3BE;
+    color: var(--colorSecundario);
     text-align:left;
-    font-family: "Montserrat", serif;
+    font-family: var(--fuenteMontserrat);
     font-size: 16px;
     font-weight: 400;
     gap: 20px;
@@ -171,5 +171,5 @@ body
 
 .enlacesFooter
 {
-    color: #DAD3BE
+    color: var(--colorSecundario)
 }
