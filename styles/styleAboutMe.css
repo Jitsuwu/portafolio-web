@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    /* height: 100vh; */
+    background-color:#254336;
+    color: #DAD3BE;
+    box-sizing: border-box;
+}
+
+.fotoPresentacion
+{
+    width: 467.71px;
+    height: 532px;
+    border-radius: 16px;
+}

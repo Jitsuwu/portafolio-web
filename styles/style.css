@@ -13,9 +13,32 @@ body
     box-sizing: border-box;
 }
 
-.titulo-destaque
+.header
 {
-    color: #6B8A7A;
+    padding: 2% 0% 0% 15%;
+    background-color: #254336;
+    font-family: "Montserrat", serif;
+    color: #B7B597;
+}
+
+.headerMenu
+{
+    display:flex;
+    gap: 80px;
+}
+
+.headerMenuLinks
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #DAD3BE;
+    text-decoration: none;
+}
+
+.headerMenuLinks:hover
+{
+    color: #DAD3BE;
 }
 
 .nombreInicial
@@ -37,7 +60,7 @@ body
 {
     display: flex;
     align-items: center;
-    margin: 10% 15%;
+    padding: 6% 15%;
     justify-content: space-between;
 }
 
@@ -47,6 +70,8 @@ body
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-decoration: none;
+    color: #DAD3BE;
 }
 
 .presentacionContenidoTitulo
@@ -55,10 +80,17 @@ body
     font-family: "Krona One", serif;
 }
 
+.titulo-destaque
+{
+    color: #6B8A7A;
+}
+
 .presentacionContenidoParrafo
 {
     font-size: 18px;
     font-family: "Montserrat", serif;
+    text-decoration: none;
+    color: #DAD3BE;
 }
 
 .presentacionContenidoParrafo2
@@ -117,49 +149,16 @@ body
 .footer
 {
     background-color: #6B8A7A;
-    padding: 24px;
+    padding: 40px;
     color: #DAD3BE;
     text-align:left;
     font-family: "Montserrat", serif;
     font-size: 16px;
     font-weight: 400;
-    gap: 12px;
+    gap: 20px;
 }
 
 .enlacesFooter
 {
     color: #DAD3BE
-}
-
-.header
-{
-    background-color: #6B8A7A;
-    padding: 5px 10px;
-    color: #DAD3BE;
-    font-family: "Montserrat", serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.headerMenu
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.headerMenuLinks
-{
-    font-size: 18px;
-    color: #333;
-    margin: 0 10px;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-.headerMenuLinks:hover
-{
-    color: #DAD3BE;
 }
