@@ -7,9 +7,9 @@
 
 body
 {
+    /* height: 100vh; */
     background-color:#254336;
     color: #DAD3BE;
-    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -118,5 +118,48 @@ body
 {
     background-color: #6B8A7A;
     padding: 24px;
-    
+    color: #DAD3BE;
+    text-align:left;
+    font-family: "Montserrat", serif;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 12px;
+}
+
+.enlacesFooter
+{
+    color: #DAD3BE
+}
+
+.header
+{
+    background-color: #6B8A7A;
+    padding: 5px 10px;
+    color: #DAD3BE;
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.headerMenu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerMenuLinks
+{
+    font-size: 18px;
+    color: #333;
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.headerMenuLinks:hover
+{
+    color: #DAD3BE;
 }
