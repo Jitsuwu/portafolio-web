@@ -95,6 +95,16 @@ body
     font-weight: 600;
     color: #DAD3BE;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.presentacionEnlacesLink:hover
+{
+    border: 2px solid #B7B597;
+    cursor: pointer;
+    background-color:#6B8A7A; ;
 }
 
 .fotoPresentacion
@@ -102,4 +112,11 @@ body
     width: 467.71px;
     height: 532px;
     border-radius: 16px;
+}
+
+.footer
+{
+    background-color: #6B8A7A;
+    padding: 24px;
+    
 }
