@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="styles/style.css">
+
+<body>
 <h1>
   WELCOME
 </h1>
@@ -18,3 +20,4 @@
 <p>
   If you have any questions or corcerns feel free to reach out via <a href="https://www.linkedin.com/in/mestrada123/"target="_blank">LinkedIn!</a>
 </p>
+</body>
