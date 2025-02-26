@@ -21,6 +21,6 @@
   If you have any questions or corcerns feel free to reach out via <a href="https://www.linkedin.com/in/mestrada123/" target = "_blank" rel="noreferrer noopener" >LinkedIn!</a>
 </p>
 <p>
-(usa ctrl+click o cmd+click para abrir en un nuevo tab :p)
+(use ctrl+click o cmd+click para abrir en un nuevo tab :p)
 </p>
 </body>
