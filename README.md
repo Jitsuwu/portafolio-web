@@ -16,5 +16,5 @@
   If by any chance this code helps you with starting your own website or learning CSS and HTML, feel free to let me know, is my pleasure to be helpful
 </p>
 <p>
-  If you have any questions or corcerns feel free to reach out via <a class= "presentacionEnlacesLink" href="https://www.linkedin.com/in/mestrada123/"target="_blank">LinkedIn!</a>
+  If you have any questions or corcerns feel free to reach out via <a href="https://www.linkedin.com/in/mestrada123/"target="_blank">LinkedIn!</a>
 </p>
